@@ -1,4 +1,4 @@
-## (Nombre del proyecto)
+## TAXIDERMIA
 
 Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de la Univesidad de Granada
 
@@ -8,11 +8,11 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 
 
-**Titulo** : MI Proyecto(nombre)
+**Titulo** : Taxidermia
 
-**Web:**   (url github.io)
+**Web:**   https://zyedin.itch.io/taxidermia
 
-**Autor:**  (Nombre apellidos) 
+**Autor:**  Logan Porcel Hidalgo
 
  [Profile Card](cmi-card.html)  [Alternate Profile Card](cmi-card2.html)
 
