@@ -3,10 +3,7 @@
 Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de la Univesidad de Granada
 
 
-
 # 1 Datos 
-
-
 
 **Titulo** : Taxidermia
 
@@ -67,71 +64,52 @@ El proyecto está basado en muchas novelas visuales y juegos de terror y misteri
 - En cuanto a estética, como música y diseño medioambiental, [Lost in Vivo](https://store.steampowered.com/app/963710/Lost_in_Vivo/?l=spanish) y la saga entera de [Silent Hill](https://es.wikipedia.org/wiki/Silent_Hill_(franquicia)) siempre están presentes en mi cabeza a la hora de crear. También el género del [terror análogico](https://es.wikipedia.org/wiki/Terror_anal%C3%B3gico) y los [espacios liminales](https://es.wikipedia.org/wiki/Liminalidad).
 
 
-
 **Motivación de la propuesta** 
 
-Este  proyecto es interesante porque ... 
-
+Quise hacer este juego porque está basado en una historia que llevo escribiendo varios años. Ya que se trata de un proyecto pequeño, me he basado en un pequeño fragmento del pasado del protagonista. Mi motivación principal es tantear el terreno de la programación de videojuegos, para así en un futuro desarrollar esta historia al completo y a mi gusto. Además, me serviría de prueba para ver qué mecánicas podría implementar en ese futuro proyecto.
 
 
 **Publico / audiencia**
 
-- Orientado a 
-
-
-
+Mayores de 18 años. Aunque este juego es algo personal, así que está más bien orientado a un público cercano a mi, pero cualquiera podría interesarse por la historia.
 
 
 ## Etapa 2: Desarrollo / actividades realizadas
 
 (qué soluciones has planteado y cómo se han resuelto: juego, galería de fotos, grabación de video, etc.)
 
-- Juego. 
-- Video 
-- Instrucciones y ayuda al usuario 
-- Menús y elementos de navegación (botones)
-- etc.
-
+- Menú principal:
+  Las animaciones del menú las hice con un script que alternara entre dos imagenes constantemente (tiempo dado por un Timer). El resto de animaciones están programadas con un Animation Player (aparición de los botones, título, fade-in inicial...). Los submenús (créditos y galería) también cuentan con un AnimationPlayer de fade-in.
+- La galería carga un Sprite2D donde se exportan varias imágenes mediante "imglist". Al pulsar las flechas, cambia el indice de esta lista, y así cambia la imagen. 
+- El video lo edité fuera de Godot y simplemente lo incorporé para utilizarlo como introducción utilizando un VideoStreamPlayer.
+- El juego como tal es estilo point-n-click. Esto lo programé con un Nodo 2D donde coloqué un fondo (Sprite2D), sobre el que posicioné objetos (Area2D) que al clicarse triggerearan un DialogueBox que describiera el objeto con el que se está interactuando.
+- Ciertos objetos son polaroids. Al encontrar una polaroid, se triggereará un minijuego de resolver un puzzle estilo jigsaw. Al completar este minijuego, se triggereará otro DialogueBox que explique la historia tras la imagen.
 
 
 ## Etapa 3: Problemas identificados
 
-(que consideras que no  funciona correctamente y por qué )
-
-
+He tenido problemas para hacer que el puzzle encaje bien, así que 
 
 # 4. Conclusiones 
 
-(explica brevemente tu valoración, problemas que has detectado y que te gustaría hacer o mejorar en el futuro )
-
-
-
-
-
+No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho más, en especial a lo que respecta la estética (más animaciones, más assets...). Además, me gustaría pulir más el código, que se sienta todo más limpio y más "smooth". Mi problema principal este semestre ha sido el tiempo, y eso ha repercutido mucho en mi potencial. Siento que podría haber conseguido un producto completo si me encontrara bajo otras circunstancias. Y me da especial rabia porque, conceptualmente, esta asignatura me gusta mucho.
 
 
 # 5 Referencias 
 
-**Artículos y blogs** 
-
-- Crofts, S., Fox, M., Retsema, A. and Williams, B. (2005) *Podcasting: A new technology in search of viable business models*First Monday, 10(9). https://doi.org/10.5210/fm.v10i9.1273. Recuperado el 8 de abril de 2020 de: https://journals.uic.edu/ojs/index.php/fm/article/view/1273/1193
-
 **Recursos y materiales audiovisuales:**
 
-* Musica:  
-* Imágenes:  
-* Tipografía: 
+* Musica:
+* - Menú: Lost In Vivo - "Dreaming"
+* Imágenes: Por mi
+* Tipografía: OrangeB, VCR OSD MONO
 
 **Herramientas utilizadas**
 
-- Godot Engine 4.x
-- 
+- Godot Engine 4.6
+- Procreate, FireAlpaca (creación/edición de imagen)
+- ClipChamp (edición de video)
+- Godot Docs (guía de Godot)
+- Microsoft Copilot (ayuda adicional con el código)
 
-(imagen de la licencia, copiar y pegar aquí la correcta)
-https://creativecommons.org/licenses/?lang=es
-
-* logos en https://creativecommons.org/mission/downloads/
-  
-  <img src="https://licensebuttons.net/l/by-nc-sa/3.0/nl/88x31.png" style="width: 80px"></small>
-
-Mayo 202X
+Mayo 2026
