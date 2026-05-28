@@ -16,7 +16,7 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
  [Profile Card](cmi-card.html)  [Alternate Profile Card](cmi-card2.html)
 
-**Resumen** : Se trata de una pequeña novela visual de misterio donde exploramos los sueños del protagonista, un joven investigador privado, a medida que lleva acabo su tarea diaria de resolver incidencias junto al resto de su equipo de investigación, desvelando así un crimen de mayor escala. El juego está en inglés
+**Resumen** : Se trata de una pequeña novela visual de misterio donde exploramos los sueños del protagonista, un joven detective que trabaja bajo el equipo de investigación de su padre adoptivo. Mediante se desvelan fragmentos sobre el pasado del protagonista, también se desbloquearán pistas necesarias para resolver un crimen a mayor escala que el grupo se encuentra investigando. El juego está en inglés por comodidad propia.
 
 **Estilo/género:**  Novela visual / Point-n-click / Puzzles
 
@@ -42,25 +42,29 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 # 2. Memoria del proyecto 
 
-### 2.1 Storyboard: 
+### 2.1 Storyboard (EN): 
 
-Wooyoung has always had troube remembering things. Ever since Mr. Kurosawa took him in, he's been documenting his every day life by taking pictures of his most important memories. But it wasn't always like this. Every night, Wooyoung must explore his dreamscape in order to pick up pieces of his fragmented past so he can function as a normal human being would. It is of the upmost importance for his job.
+"Wooyoung has always had troube remembering things. Ever since Mr. Kurosawa took him in, he's been documenting his every day life by taking pictures of his most important memories. But it wasn't always like this. Every night, Wooyoung must explore his dreamscape in order to pick up pieces of his fragmented mind so he can function as a normal human being would, and figure out the greater mystery behind his past."
+
+This demo of the game focuses only on the first dream exploration segment. The visual novel aspect where you get to play during the daytime is planned to be implemented later on if possible.
 
 ![storyboard](storyboard.png)
 
-### 2.2. Esquema de navegación 
+### 2.2. Esquema de navegación (EN)
 
 ![esquema](scenes.png)
 
 # 3. Metodología
 
-
 ## Etapa 1: Ideación de proyecto
 
-**Investigación de campo** (propuestas inspiradoras para el proyecto)
+**Investigación de campo** 
 
-- Portfolio [Leonardi Web page](http://www.rleonardi.com/interactive-resume/) para idear cómo organizar el material
-- 
+El proyecto está basado en muchas novelas visuales y juegos de terror y misterio que he jugado a lo largo de mi vida. Las inspiraciones más inmmediatas que se me vienen a la cabeza, ya sean por gameplay o estética, son:
+
+- [Your Turn To Die](https://store.steampowered.com/app/2067780/Your_Turn_To_Die_Death_Game_By_Majority/?l=spanish) Una novela visual con elementos point-n-click de misterio, basada en la saga de videojuegos de Danganronpa y otrosjuegos de muerte.
+- [Yumme Nikki](https://store.steampowered.com/app/650700/Yume_Nikki/?l=spanish). Un walking simulator de terror donde se exploran los sueños de la protagonista. A su vez, toma referencia de [LSD Dream Emulator](https://store.steampowered.com/app/3299190/LSD_Dream_Emulator_Retro/?l=spanish). Otro juego de corriente parecida sería [Omori](https://store.steampowered.com/app/1150690/OMORI/?l=spanish), que se centra más en contar una historia mediante alternamos entre el día a día y los sueños del protagonista.
+- En cuanto a estética, como música y diseño medioambiental, [Lost in Vivo](https://store.steampowered.com/app/963710/Lost_in_Vivo/?l=spanish) y la saga entera de [Silent Hill](https://es.wikipedia.org/wiki/Silent_Hill_(franquicia)) siempre están presentes en mi cabeza a la hora de crear. También el género del [terror análogico](https://es.wikipedia.org/wiki/Terror_anal%C3%B3gico) y los [espacios liminales](https://es.wikipedia.org/wiki/Liminalidad).
 
 
 
