@@ -20,7 +20,7 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 **Estilo/género:**  Novela visual / Point-n-click / Puzzles
 
-**Logotipo** : (insertar imagen y breve justificación, si  tiene) 
+**Logotipo** : 
 
 ![logo](title1.png)
 
@@ -34,10 +34,11 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 **Fecha** : 28/05/2026
 
-**Medios** (donde se tiene presencia relacionada):
+**Medios**:
 
-- Github:
+- Github: https://github.com/browmbie/taxidermia
 - Twitter: https://x.com/zyedin_
+- Itch.io: https://zyedin.itch.io/taxidermia
 
 # 2. Memoria del proyecto 
 
@@ -52,9 +53,6 @@ Wooyoung has always had troube remembering things. Ever since Mr. Kurosawa took 
 ![esquema](scenes.png)
 
 # 3. Metodología
-
-Metodología de desarrollo de productos multimedia basado en una metodología de UX (User Experience)
-
 
 
 ## Etapa 1: Ideación de proyecto
