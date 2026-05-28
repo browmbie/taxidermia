@@ -22,7 +22,7 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 **Logotipo** : (insertar imagen y breve justificación, si  tiene) 
 
-![logo](WalkingGirl_front01.png)
+![logo](title1.png)
 
 **Resolución:** 1152x648px
 
@@ -39,30 +39,17 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 - Github:
 - Twitter: https://x.com/zyedin_
 
-
-![sprite](WalkingGirl_front01.png)
-
 # 2. Memoria del proyecto 
 
 ### 2.1 Storyboard: 
 
+Wooyoung has always had troube remembering things. Ever since Mr. Kurosawa took him in, he's been documenting his every day life by taking pictures of his most important memories. But it wasn't always like this. Every night, Wooyoung must explore his dreamscape in order to pick up pieces of his fragmented past so he can function as a normal human being would. It is of the upmost importance for his job.
 
-
-(narra brevemente lo que sucede en tu proyecto, puedes usar 3-4 imágenes de apoyo)
-
-
+![storyboard](storyboard.png)
 
 ### 2.2. Esquema de navegación 
 
-
-
-(imagen con las distintas pantallas de navegación, usa draw.io o cualquier programa de dibujo)
-
-
-
-
-
-
+![esquema](scenes.png)
 
 # 3. Metodología
 
