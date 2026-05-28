@@ -88,7 +88,7 @@ Mayores de 18 años. Aunque este juego es algo personal, así que está más bie
 
 ## Etapa 3: Problemas identificados
 
-He tenido problemas para hacer que el puzzle encaje bien, así que 
+...
 
 # 4. Conclusiones 
 
