@@ -41,7 +41,7 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 ### 2.1 Storyboard (EN): 
 
-"Wooyoung has always had troube remembering things. Ever since Mr. Kurosawa took him in, he's been documenting his every day life by taking pictures of his most important memories. But it wasn't always like this. Every night, Wooyoung must explore his dreamscape in order to pick up pieces of his fragmented mind so he can function as a normal human being would, and figure out the greater mystery behind his past."
+"Wooyoung has always had trouble remembering things. Ever since Mr. Kurosawa took him in, he's been documenting his everyday life by taking pictures of his most important memories. But it wasn't always like this. Every night, Wooyoung must explore his dreamscape in order to pick up pieces of his fragmented mind so he can function as a normal human being would, and figure out the greater mystery behind his past."
 
 This demo of the game focuses only on the first dream exploration segment. The visual novel aspect where you get to play during the daytime is planned to be implemented later on if possible.
 
