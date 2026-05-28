@@ -27,7 +27,7 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 **Tamaño proyecto:** 45MB 
 
-**Licencia** Este proyecto tiene una Licencia CC Reconocimiento Compartir igual (CC BY-SA)
+**Licencia:** Este proyecto tiene una Licencia CC Reconocimiento Compartir igual (CC BY-SA)
 
 **Fecha** : 28/05/2026
 
