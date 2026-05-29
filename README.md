@@ -102,7 +102,7 @@ No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho m
 **Recursos y materiales audiovisuales:**
 
 * Musica:
-* - Menú: Lost In Vivo - "Dreaming"
+  - Menú: Lost In Vivo - "Dreaming"
   - Juego: Yumme Nikki - "Unlit World"
 * Imágenes: Por mi
 * Tipografía: OrangeB, VCR OSD MONO
