@@ -94,7 +94,7 @@ En general no he tenido problemas mayores más que la falta de tiempo. Siento qu
 
 # 4. Conclusiones 
 
-No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho más, en especial a lo que respecta la estética (más animaciones, más assets...). Además, me gustaría pulir más el código, que se sienta todo más limpio y más "smooth". Mi problema principal este semestre ha sido el tiempo, y eso ha repercutido mucho en mi potencial. Siento que podría haber conseguido un producto completo si me encontrara bajo otras circunstancias. Y me da especial rabia porque, conceptualmente, esta asignatura me gusta mucho.
+No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho más, en especial a lo que respecta la estética (más animaciones, más assets...) y las mecánicas (un inventario con las polaroids, por ejemplo). Además, me gustaría pulir más el código, que se sienta todo más limpio y más "smooth". Mi problema principal este semestre ha sido el tiempo, y eso ha repercutido mucho en mi potencial. Siento que podría haber conseguido un producto completo si me encontrara bajo otras circunstancias. Y me da especial rabia porque, conceptualmente, esta asignatura me gusta mucho.
 
 
 # 5 Referencias 
