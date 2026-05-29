@@ -25,7 +25,7 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 **Probado en:** Navegador
 
-**Tamaño proyecto:** 45MB 
+**Tamaño proyecto:** 98,5 MB 
 
 **Licencia:** Este proyecto tiene una Licencia CC Reconocimiento Compartir igual (CC BY-SA)
 
@@ -83,12 +83,14 @@ Mayores de 18 años. Aunque este juego es algo personal, así que está más bie
 - La galería carga un Sprite2D donde se exportan varias imágenes mediante "imglist". Al pulsar las flechas, cambia el indice de esta lista, y así cambia la imagen. 
 - El video lo edité fuera de Godot y simplemente lo incorporé para utilizarlo como introducción utilizando un VideoStreamPlayer.
 - El juego como tal es estilo point-n-click. Esto lo programé con un Nodo 2D donde coloqué un fondo (Sprite2D), sobre el que posicioné objetos (Area2D) que al clicarse triggerearan un DialogueBox que describiera el objeto con el que se está interactuando.
-- Ciertos objetos son polaroids. Al encontrar una polaroid, se triggereará un minijuego de resolver un puzzle estilo jigsaw. Al completar este minijuego, se triggereará otro DialogueBox que explique la historia tras la imagen.
+- Al explorar, nos encontraremos polaroids. Se debe completar un pequeño puzzle deslizable sencillo para poder desbloquear un Lable que contiene información sobre la fotografía. Una vez hecho esto, se puede volver hacia atrás. Me basé en [este tutorial](https://www.youtube.com/watch?v=d06wkmCKupM) para hacer el script.
 
 
 ## Etapa 3: Problemas identificados
 
-...
+En un principio, quería hacer un puzzle estilo jigsaw en vez de uno deslizable, pero tuve demasiados problemas a la hora de programarlos y muy poco tiempo de resolverlo. En un principio conseguí que las piezas se generaran correctamente y que pudieran ser arrastradas, mediante un Area2D que fuera la pieza y un Nodo2D fuera la imagen, donde apliqué un script para cortarla en cuadrados. Sin embargo, el grid donde se colocaban las piezas estaba atascado arriba a la izquierda, y no conseguí solucionarlo. Luego, intenté hacer ese grid con un Node2D, pero solo me ocasionó más problemas, así que opté por una alternativa que, he de decir, es más entretenida de resolver.
+
+En general no he tenido problemas mayores más que la falta de tiempo. Siento que hubiera podido aprender a manejar mejor el programa si no fuera por problemas personales.
 
 # 4. Conclusiones 
 
@@ -101,6 +103,7 @@ No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho m
 
 * Musica:
 * - Menú: Lost In Vivo - "Dreaming"
+  - Juego: Yumme Nikki - "Unlit World"
 * Imágenes: Por mi
 * Tipografía: OrangeB, VCR OSD MONO
 
@@ -108,7 +111,7 @@ No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho m
 
 - Godot Engine 4.6
 - Procreate, FireAlpaca (creación/edición de imagen)
-- ClipChamp (edición de video)
+- CapCut y ClipChamp (edición de video)
 - Godot Docs (guía de Godot)
 - Microsoft Copilot (ayuda adicional con el código)
 
