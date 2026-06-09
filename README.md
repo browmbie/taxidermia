@@ -81,7 +81,8 @@ Mayores de 18 años. Aunque este juego es algo personal, así que está más bie
 - Los videos lo edité fuera de Godot y simplemente los incorporé mediante un VideoStreamPlayer.
 - El juego como tal es estilo point-n-click. Cada escenario es un Nodo 2D donde coloqué un fondo (Sprite2D), sobre el que posicioné objetos (Area2D) que al clicarse ejecutan un DialogueBox que describe el objeto con el que se está interactuando. Los fondos están animados con un Timer al igual que las animaciones del menú principal, y los objetos, marcados con un pequeño icono de lupa, están animados con un AnimationPlayer que modula la opacidad de los sprites.
 - Al explorar, nos encontraremos polaroids. Se debe completar un pequeño puzzle deslizable sencillo para poder desbloquear un Lable que contiene información sobre la fotografía. Una vez hecho esto, se puede volver hacia atrás. Me basé en [este tutorial](https://www.youtube.com/watch?v=d06wkmCKupM) para hacer el script.
-- Se puede avanzar de una habitación a otra si se han encontrado todas las polaroids de esa habitación. Este progreso se guarda mediante un script global llamado "GameProgress.gd". Al moverse de habitación, suena un efecto de sonido de pasos. 
+- Se puede avanzar de una habitación a otra si se han encontrado todas las polaroids de esa habitación. Este progreso se guarda mediante un script global llamado "GameProgress.gd". Al moverse de habitación, suena un efecto de sonido de pasos.
+- Además de todo esto, intenté tener organizados todos mis recursos en sus respectivas carpetas para hacer el trabajo más llevadero. 
 
 
 ## Etapa 3: Problemas identificados
@@ -92,7 +93,7 @@ En general no he tenido problemas mayores más que la falta de tiempo.
 
 # 4. Conclusiones 
 
-No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho más, en especial a lo que respecta las mecánicas (un inventario con las polaroids, por ejemplo), además de implementar un segmento de vida cotidiana, donde hubiera experimentado con Dialogic. Además, me gustaría pulir más el código, que se sienta todo más limpio y más "smooth". Mi problema principal este semestre ha sido la falta de tiempo dados problemas personales, y eso ha repercutido mucho en mi potencial. Siento que podría haber conseguido un producto completo si me encontrara bajo otras circunstancias.
+No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho más, en especial a lo que respecta las mecánicas (un inventario con las polaroids, por ejemplo), además de implementar un segmento de vida cotidiana, donde hubiera experimentado con Dialogic para introducir al resto de personajes. Además, me gustaría pulir más el código a ser posible, ya que siento que se me han quedado bastantes líneas sueltas por ahí. Sinceramente, mi problema principal este semestre ha sido la falta de tiempo dados problemas personales, y eso ha repercutido mucho en mi potencial. Siento que podría haber conseguido un producto completo si me encontrara bajo otras circunstancias.
 
 
 # 5 Referencias 
