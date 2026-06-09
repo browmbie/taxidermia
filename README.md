@@ -23,9 +23,9 @@ Proyecto de Creación Multimedia Interactiva de la  Facultad de Bellas Artes de 
 
 **Resolución:** 1152x648px
 
-**Probado en:** Navegador
+**Probado en:** Navegador, dispositivos móviles
 
-**Tamaño proyecto:** 98,5 MB 
+**Tamaño proyecto:** 82,3 MB 
 
 **Licencia:** Este proyecto tiene una Licencia CC Reconocimiento Compartir igual (CC BY-SA)
 
@@ -60,7 +60,7 @@ This demo of the game focuses only on the first dream exploration segment. The v
 El proyecto está basado en muchas novelas visuales y juegos de terror y misterio que he jugado a lo largo de mi vida. Las inspiraciones más inmmediatas que se me vienen a la cabeza, ya sean por gameplay o estética, son:
 
 - [Your Turn To Die](https://store.steampowered.com/app/2067780/Your_Turn_To_Die_Death_Game_By_Majority/?l=spanish) Una novela visual con elementos point-n-click de misterio, basada en la saga de videojuegos de Danganronpa y otrosjuegos de muerte.
-- [Yumme Nikki](https://store.steampowered.com/app/650700/Yume_Nikki/?l=spanish). Un walking simulator de terror donde se exploran los sueños de la protagonista. A su vez, toma referencia de [LSD Dream Emulator](https://store.steampowered.com/app/3299190/LSD_Dream_Emulator_Retro/?l=spanish). Otro juego de corriente parecida sería [Omori](https://store.steampowered.com/app/1150690/OMORI/?l=spanish), que se centra más en contar una historia mediante alternamos entre el día a día y los sueños del protagonista.
+- [Yume Nikki](https://store.steampowered.com/app/650700/Yume_Nikki/?l=spanish). Un walking simulator de terror donde se exploran los sueños de la protagonista. A su vez, toma referencia de [LSD Dream Emulator](https://store.steampowered.com/app/3299190/LSD_Dream_Emulator_Retro/?l=spanish). Otro juego de corriente parecida sería [Omori](https://store.steampowered.com/app/1150690/OMORI/?l=spanish), que se centra más en contar una historia mediante alternamos entre el día a día y los sueños del protagonista.
 - En cuanto a estética, como música y diseño medioambiental, [Lost in Vivo](https://store.steampowered.com/app/963710/Lost_in_Vivo/?l=spanish) y la saga entera de [Silent Hill](https://es.wikipedia.org/wiki/Silent_Hill_(franquicia)) siempre están presentes en mi cabeza a la hora de crear. También el género del [terror análogico](https://es.wikipedia.org/wiki/Terror_anal%C3%B3gico) y los [espacios liminales](https://es.wikipedia.org/wiki/Liminalidad).
 
 
@@ -76,25 +76,23 @@ Mayores de 18 años. Aunque este juego es algo personal, así que está más bie
 
 ## Etapa 2: Desarrollo / actividades realizadas
 
-(qué soluciones has planteado y cómo se han resuelto: juego, galería de fotos, grabación de video, etc.)
-
-- Menú principal:
-  Las animaciones del menú las hice con un script que alternara entre dos imagenes constantemente (tiempo dado por un Timer). El resto de animaciones están programadas con un Animation Player (aparición de los botones, título, fade-in inicial...). Los submenús (créditos y galería) también cuentan con un AnimationPlayer de fade-in.
+- Las animaciones del menú principal las hice con un script que alterna entre dos imagenes constantemente (tiempo dado por un Timer). El resto de animaciones están programadas con un Animation Player (aparición de los botones, título, fade-in inicial...). Los submenús (créditos y galería) también cuentan con un AnimationPlayer de fade-in.
 - La galería carga un Sprite2D donde se exportan varias imágenes mediante "imglist". Al pulsar las flechas, cambia el indice de esta lista, y así cambia la imagen. 
-- El video lo edité fuera de Godot y simplemente lo incorporé para utilizarlo como introducción utilizando un VideoStreamPlayer.
-- El juego como tal es estilo point-n-click. Esto lo programé con un Nodo 2D donde coloqué un fondo (Sprite2D), sobre el que posicioné objetos (Area2D) que al clicarse triggerearan un DialogueBox que describiera el objeto con el que se está interactuando.
+- Los videos lo edité fuera de Godot y simplemente los incorporé mediante un VideoStreamPlayer.
+- El juego como tal es estilo point-n-click. Cada escenario es un Nodo 2D donde coloqué un fondo (Sprite2D), sobre el que posicioné objetos (Area2D) que al clicarse ejecutan un DialogueBox que describe el objeto con el que se está interactuando. Los fondos están animados con un Timer al igual que las animaciones del menú principal, y los objetos, marcados con un pequeño icono de lupa, están animados con un AnimationPlayer que modula la opacidad de los sprites.
 - Al explorar, nos encontraremos polaroids. Se debe completar un pequeño puzzle deslizable sencillo para poder desbloquear un Lable que contiene información sobre la fotografía. Una vez hecho esto, se puede volver hacia atrás. Me basé en [este tutorial](https://www.youtube.com/watch?v=d06wkmCKupM) para hacer el script.
+- Se puede avanzar de una habitación a otra si se han encontrado todas las polaroids de esa habitación. Este progreso se guarda mediante un script global llamado "GameProgress.gd". Al moverse de habitación, suena un efecto de sonido de pasos. 
 
 
 ## Etapa 3: Problemas identificados
 
-En un principio, quería hacer un puzzle estilo jigsaw en vez de uno deslizable, pero tuve demasiados problemas a la hora de programarlos y muy poco tiempo de resolverlo. En un principio conseguí que las piezas se generaran correctamente y que pudieran ser arrastradas, mediante un Area2D que fuera la pieza y un Nodo2D fuera la imagen, donde apliqué un script para cortarla en cuadrados. Sin embargo, el grid donde se colocaban las piezas estaba atascado arriba a la izquierda, y no conseguí solucionarlo. Luego, intenté hacer ese grid con un Node2D, pero solo me ocasionó más problemas, así que opté por una alternativa que, he de decir, es más entretenida de resolver.
+En un principio, quería hacer un puzzle estilo jigsaw en vez de uno deslizable, pero tuve demasiados problemas a la hora de programarlos y muy poco tiempo de resolverlo. Conseguí que las piezas se generaran correctamente y que pudieran ser arrastradas, mediante un Area2D que fuera la pieza y un Nodo2D fuera la imagen, donde apliqué un script para cortarla en cuadrados. Sin embargo, el grid donde se colocaban las piezas estaba atascado arriba a la izquierda, y no conseguí solucionarlo. Luego, intenté hacer ese grid con un Node2D, pero solo me ocasionó más problemas, así que opté por una alternativa que, he de decir, es más entretenida de resolver.
 
-En general no he tenido problemas mayores más que la falta de tiempo. Siento que hubiera podido aprender a manejar mejor el programa si no fuera por problemas personales.
+En general no he tenido problemas mayores más que la falta de tiempo.
 
 # 4. Conclusiones 
 
-No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho más, en especial a lo que respecta la estética (más animaciones, más assets...) y las mecánicas (un inventario con las polaroids, por ejemplo). Además, me gustaría pulir más el código, que se sienta todo más limpio y más "smooth". Mi problema principal este semestre ha sido el tiempo, y eso ha repercutido mucho en mi potencial. Siento que podría haber conseguido un producto completo si me encontrara bajo otras circunstancias. Y me da especial rabia porque, conceptualmente, esta asignatura me gusta mucho.
+No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho más, en especial a lo que respecta las mecánicas (un inventario con las polaroids, por ejemplo), además de implementar un segmento de vida cotidiana, donde hubiera experimentado con Dialogic. Además, me gustaría pulir más el código, que se sienta todo más limpio y más "smooth". Mi problema principal este semestre ha sido la falta de tiempo dados problemas personales, y eso ha repercutido mucho en mi potencial. Siento que podría haber conseguido un producto completo si me encontrara bajo otras circunstancias.
 
 
 # 5 Referencias 
@@ -103,9 +101,9 @@ No estoy satisfecho del todo con esta demo, y me hubiera gustado añadir mucho m
 
 * Musica:
   - Menú: Lost In Vivo - "Dreaming"
-  - Juego: Yumme Nikki - "Unlit World"
-* Imágenes: Por mi
-* Tipografía: OrangeB, VCR OSD MONO
+  - Juego: Yume Nikki - "Unlit World"
+* Imágenes: Obra propia
+* Tipografía: OrangeB, OpenSerif-Book
 
 **Herramientas utilizadas**
 
